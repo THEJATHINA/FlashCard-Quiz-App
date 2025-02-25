@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="https://www.flashcard-quiz-app.com"></a>
+</head>
+<body>
+    <div class="flashcard-container">
+        <h1>Flashcard Quiz</h1>
+
+        <!-- Flashcard -->
+        <div id="flashcard" class="flashcard">
+            <div class="front">
+                <p id="question">Question will appear here</p>
+            </div>
+            <div class="back">
+                <p id="answer">Answer will appear here</p>
+            </div>
+        </div>
+
+        <!-- Input and buttons -->
+        <input type="text" id="answer-input" placeholder="Enter your answer">
+        <button id="submit-answer">Submit Answer</button>
+        <button id="flip-card" disabled>Flip Card</button>
+        <button id="next-card" disabled>Next Card</button>
+
+        <!-- Answer Feedback -->
+        <p id="feedback"></p>
+
+        <!-- Score Display -->
+        <p id="score-display" class="score-container">Score: 0 / 0</p>
+
+        <!-- Final Score Display -->
+        <div id="final-score" class="final-score" style="display: none;">
+            <h2>Quiz Completed!</h2>
+            <p id="final-score-text">Your Final Score: 0 / 0</p>
+            <button id="restart">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
