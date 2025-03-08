@@ -1,4 +1,4 @@
-# FlashCard Quiz App - CodeAlpha_Tasks
+# FlashCard Quiz App
 # Description
    It is a simple flashcard quiz application built using HTML, CSS, and Javascript. This app contains question on one side and when you flip the card , the answer will be on the other side.
 # Features
