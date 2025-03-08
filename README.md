@@ -11,6 +11,6 @@
    * CSS
    * JAVASCRIPT
 # How to use
-   * Clone the repository(https://github.com/THEJATHINA/FlashCard-Quiz-App_CodeApha_Task1)
+   * Clone the repository(https://github.com/THEJATHINA/FlashCard-Quiz-App)
    * Open the index.html file in a web to use the app.
    
